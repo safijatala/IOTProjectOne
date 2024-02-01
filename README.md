@@ -15,8 +15,8 @@ git clone https://github.com/RIOT-OS/RIOT.git
 
 ```
 # Setting Up Temperature Sensor
-Create a folder for the temperature sensor, named "TemperatureSensor".
-Create the main.c and Makefile files in the temperature sensor folder to connect the sensors to the testbed.
+Creating a folder for the temperature sensor, named "TemperatureSensor".
+Creating the main.c and Makefile files in the temperature sensor folder to connect the sensors to the testbed.
 Save the files and compile them using the terminal with the following commands:
 
 ```
@@ -55,7 +55,7 @@ lps temperature start
 ```
 
 # COAP Integration
-Create a COAP folder and write its main and make files, as well as gcoap_cli.c.
+Creating a COAP folder and writing its main and make files, as well as gcoap_cli.c.
 Execute the COAP project similarly to before and send it to the server, using two COAP instances for the client and server.
 
 ```
@@ -65,7 +65,7 @@ iotlab-experiment submit -n COAP2 -d 60 -l grenoble,m3,4,./bin/iotlab-m3/COAP.el
    
 ```
 
-Checking Client and Server Communication
+# Checking Client and Server Communication
 The client successfully sends a CoAP GET request to retrieve temperature data from the server.
 The server responds with the requested information.
 The server terminal provides network configuration details to ensure proper communication between the client and server.
