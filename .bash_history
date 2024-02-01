@@ -90,7 +90,6 @@ git commit -m "first commit"
 git branch -M main
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/safijatala/IotProj1.git
 git push -u origin main
 git checkout -b main
 git add .
