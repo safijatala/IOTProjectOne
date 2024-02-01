@@ -49,7 +49,6 @@ make IOTLAB_NODE=auto auto -C . term
 lps
 iotlab-auth -u iot2023oulu33@iot-lab.info
 make IOTLAB_NODE=auto auto -C . term
-iotlab-auth -u iot2023oulu33@iot-lab.info
 make IOTLAB_NODE=auto auto -C . term
 cd TemperatureSensor
 make IOTLAB_NODE=auto auto -C . term
@@ -61,7 +60,6 @@ cd TemperatureSensor
 make
 source /opt/riot.source
 make
-iotlab-experiment submit -n "ThGood1-d 120 -l 1,archi=m3:at86rf231+site=grenoble
 lps
 lps temp
 cd
@@ -102,11 +100,6 @@ touch .gitignore
 git add .gitignore
 git commit -m "Add .gitignore file to ignore cache files and other non-essential files"
 git push -u origin main
-git rm --cached <file>
-git rm --cached .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node
-git rm --cached .vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-1.19.2-linux-x64
-git rm --cached .vscode-server/extensions/ms-vscode.cpptools-1.19.2-linux-x64/LLVM/bin/clang-tidy
-git rm --cached .cache/vscode-cpptools/93e2759956deab4e58f39e83883fe5ff/.browse.VC.db
 git commit -m "Initial commit"
 git branch -M main
 git push -u origin main
