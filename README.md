@@ -62,7 +62,7 @@ The client successfully sends a CoAP GET request to retrieve temperature data fr
 The server responds with the requested information.
 The server terminal provides network configuration details to ensure proper communication between the client and server. 
 
-To demonstrate it, this command can be used for server terminal as it is on node 4, the next ones for client.
+To demonstrate it, this command can be used for server terminal as it is on node 4.
 ```
 nc m3-4 20000
 ifconfig
