@@ -49,12 +49,6 @@ TemperatureSensor/ make IOTLAB_NODE=auto flash
 make IOTLAB_NODE=auto flash
 make IOTLAB_NODE=auto auto -C . term
 exit
-iotlab-experiment submit -n TempMeasurement -d 120 -l grenoble,m3,3,./bin/iotlab-m3/sensors.elf
-cd
-ls
-iotlab-experiment submit -n 4th -d 120 -l grenoble,m3,2,./bin/iotlab-m3/sensors.elf
-cd TemperatureSensor
-iotlab-experiment submit -n 4th -d 120 -l grenoble,m3,2,./bin/iotlab-m3/sensors.elf
 iotlab-experiment submit -n 4th -d 120 -l grenoble,m3,2,./bin/iotlab-m3/tempsen.elf
 lps
 make IOTLAB_NODE=auto auto -C . term
