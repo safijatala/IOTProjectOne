@@ -11,8 +11,6 @@ Now, clone the RIOT repository from the terminal using the command:
 
 ```
 git clone https://github.com/RIOT-OS/RIOT.git
-
-
 ```
 # Setting Up Temperature Sensor
 Creating a folder for the temperature sensor, named "TemperatureSensor".
@@ -21,9 +19,8 @@ Save the files and compile them using the terminal with the following commands:
 
 ```
 cd TemperatureSensor
-make
 source /opt/riot.source
-
+make
 ```
 
 # Running in Terminal and Uploading to Testbed
@@ -39,13 +36,13 @@ Send another sensor to the testbed in a separate terminal using:
 
 ```
 iotlab-experiment submit -n 2nd -d 120 -l grenoble,m3,2,./bin/iotlab-m3/tempsen.elf
-
 ```
 These commands sends the sensor to run on testbed node 1st and 2nd with the same names.
 
 Temperature readings could be found using on the first sensor: 
 
 ```
+lps
 lps temperature start
 ```
 
@@ -71,8 +68,9 @@ To demonstrate it, this command can be used for server terminal as it is on node
 nc m3-4 20000
 ifconfig
 ```
+ifconfig will show server ip which you need to paste in the client terminal to see if everything is working okay.
 
-now for the client part:
+Now for the client part:
 ```
 nc m3-3 20000
 ping (server ip)
