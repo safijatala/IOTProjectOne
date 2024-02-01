@@ -24,7 +24,7 @@ make
 ```
 
 # Running in Terminal and Uploading to Testbed
-Execute the following commands in the terminal to make the project and connect it to the testbed:
+Execute the following commands in the terminal to make the project and connect it to the testbed and run it for 120 mins or two hours:
 
 
 ```
@@ -48,16 +48,14 @@ lps temperature start
 ```
 
 # COAP Integration
-Creating a COAP folder and writing its main and make files, as well as gcoap_cli.c.
-Execute the COAP project similarly to before and send it to the server, using two COAP instances for the client and server.
+To add COAP, you need to create a COAP folder and writing its main and make files, as well as gcoap_cli.c. 
+Making the COAP similar to temperature sensor which done before and then send it to the server, using two COAP instances for the client and server.
 
 ```
-
-iotlab-experiment submit -n COAP -d 60 -l grenoble,m3,3,./bin/iotlab-m3/COAP.elf
+iotlab-experiment submit -n COAP1 -d 60 -l grenoble,m3,3,./bin/iotlab-m3/COAP.elf
 iotlab-experiment submit -n COAP2 -d 60 -l grenoble,m3,4,./bin/iotlab-m3/COAP.elf
-   
 ```
-These will send COAP to node 3 and 4.
+These will send COAP to node 3 and 4 for 60 minutes.
 
 # Checking Client and Server Communication
 The client successfully sends a CoAP GET request to retrieve temperature data from the server.
