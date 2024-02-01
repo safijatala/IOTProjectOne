@@ -2,8 +2,7 @@
 
 To use this project, firstly initialize the SSH keys from PowerShell and implement them on our IoT testbed.
 Connect Visual Studio with grenoble.iot-lab.info.
-Resolve SSH permission errors by specifying the remote platform as "Linux" in the json settings if it gives publickey error.
-Connect with the given username, in this case, "iot2023oulu33".
+Then Connect with the given username, in this case, "iot2023oulu33" but would be different for you.
 
 **This repository does NOT contain the folder vscode-server due to being too large for git. It can be downloaded from: https://unioulu-my.sharepoint.com/:u:/g/personal/msafi23_student_oulu_fi/EYyIXs4aCQNGrQvm7E2Ot84BUl3sa5Ac52VfdqX_tamELQ?e=T5HI0e . The file is compressed using 7z so you may need that. Once downloaded, add it to main folders and it should be good.**
 The cache folder is also missing but it is not necessary.
@@ -89,7 +88,9 @@ Partners: Haris Naveed
 Syed Hasan
 
 # Misc and Discalimer
-It may ask for authentication in form of an error if your're not authenticated, which can be done by entering your username and password by this:
+You can resolve SSH permission errors by specifying the remote platform as "Linux" in the json settings if it gives publickey error.
+
+It may also ask for authentication in form of an error if your're not authenticated, which can be done by entering your username and password by this:
 ```
 iotlab-auth -u iot2023oulu33@iot-lab.info
 ```
