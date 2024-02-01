@@ -80,3 +80,5 @@ nc m3-3 20000
 ping (server ip)
 coap get (ip here) 5683 /temperature
 ```
+# Youtube Demonstration
+https://youtu.be/a_Oqbb4fRW8
