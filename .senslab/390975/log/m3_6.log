@@ -1,0 +1,31 @@
+2024-01-31 14:35:50,605 :: INFO :: Start experiment: iot2023oulu33-390975
+2024-01-31 14:35:50,608 :: INFO :: Control node : Starting of control node serial interface
+2024-01-31 14:35:50,612 :: INFO :: Control node : reset
+2024-01-31 14:35:50,615 :: INFO :: Reset Control Node
+2024-01-31 14:35:53,410 :: INFO :: Control node : start power of open node
+2024-01-31 14:35:53,428 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-01-31 14:35:56,444 :: INFO :: Node OpenOCD: flash of openocd node
+2024-01-31 14:35:56,449 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-01-31 14:35:58,598 :: INFO :: Control node : Start experiment
+2024-01-31 14:35:58,659 :: INFO :: Control Node set time delay: 9850 us
+2024-01-31 14:35:58,708 :: INFO :: Control node : profile configuration
+2024-01-31 14:35:58,711 :: INFO :: Configure profile on Control Node
+2024-01-31 14:35:58,761 :: INFO :: Start experiment succeeded
+2024-01-31 14:48:00,865 :: INFO :: Gateway Manager : Start open node power
+2024-01-31 14:48:00,871 :: INFO :: Open power start
+2024-01-31 14:48:00,874 :: INFO :: Control node : start power of open node
+2024-01-31 16:36:03,035 :: INFO :: Gateway Manager : Stop experiment
+2024-01-31 16:36:03,045 :: INFO :: Stop experiment
+2024-01-31 16:36:03,049 :: INFO :: Control node : stop of the experiment
+2024-01-31 16:36:03,054 :: INFO :: Control node : profile configuration
+2024-01-31 16:36:03,057 :: INFO :: Configure profile on Control Node
+2024-01-31 16:36:03,111 :: INFO :: Control node : start power of open node
+2024-01-31 16:36:03,142 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-01-31 16:36:06,157 :: INFO :: openocd node debugger stop
+2024-01-31 16:36:06,777 :: INFO :: Node OpenOCD: flash of openocd node
+2024-01-31 16:36:06,781 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-01-31 16:36:08,926 :: INFO :: Control node : Stop control node serial interface
+2024-01-31 16:36:08,931 :: INFO :: Control node : stop power of open node
+2024-01-31 16:36:08,970 :: INFO :: Control node : reset
+2024-01-31 16:36:08,974 :: INFO :: Reset Control Node
+2024-01-31 16:36:11,714 :: INFO :: Stop experiment succeeded

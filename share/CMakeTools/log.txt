@@ -1,0 +1,117 @@
+2024-01-31T21:06:10.309Z [info] [proc] Executing command: cmake --version
+2024-01-31T21:06:10.405Z [info] [proc] Executing command: cmake -E capabilities
+2024-01-31T21:06:11.498Z [debug] [main] Safe constructing new CMakeProject instance
+2024-01-31T21:06:11.499Z [debug] [variant] Constructing VariantManager
+2024-01-31T21:06:11.499Z [debug] [main] Constructing new CMakeProject instance
+2024-01-31T21:06:11.500Z [debug] [main] Starting CMake Tools second-phase init
+2024-01-31T21:06:11.675Z [info] [variant] Loaded new set of variants
+2024-01-31T21:06:11.678Z [debug] [kit] Reading kits file /senslab/users/iot2023oulu33/.local/share/CMakeTools/cmake-tools-kits.json
+2024-01-31T21:06:11.707Z [info] [kit] Successfully loaded 2 kits from /senslab/users/iot2023oulu33/.local/share/CMakeTools/cmake-tools-kits.json
+2024-01-31T21:06:11.716Z [debug] [kit] Not reading non-existent kits file: /senslab/users/iot2023oulu33/.vscode/cmake-kits.json
+2024-01-31T21:06:11.720Z [debug] [main] CMakeProject instance initialization complete.
+2024-01-31T21:12:20.424Z [debug] [kit] Not reading non-existent kits file: /senslab/users/iot2023oulu33/.vscode/cmake-kits.json
+2024-01-31T21:12:20.479Z [debug] [kit] Not reading non-existent kits file: /senslab/users/iot2023oulu33/.vscode/cmake-kits.json
+2024-01-31T21:12:20.482Z [fatal] [rollbar] Unhandled exception: Unhandled Promise rejection: Reloading variants file /senslab/users/iot2023oulu33/.iot-lab Error: EISDIR: illegal operation on a directory, read {}
+2024-01-31T21:12:20.509Z [fatal] [rollbar] Unhandled exception: Unhandled Promise rejection: Reloading variants file /senslab/users/iot2023oulu33/A8 Error: EISDIR: illegal operation on a directory, read {}
+2024-01-31T21:12:20.540Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T20:41:21.444Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T20:46:14.624Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T20:46:18.383Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T20:47:43.848Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T20:53:54.591Z [debug] [extension] Deactivate CMakeTools
+no kit selected
+2024-01-31T16:31:58.137Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:33:29.010Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:35:06.652Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:39:43.969Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:42:16.952Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:42:21.931Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:42:25.445Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:46:40.362Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T16:48:23.235Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T17:27:37.401Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T17:27:41.790Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T17:27:46.170Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T17:27:56.860Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-31T18:09:17.782Z [debug] [extension] Deactivate CMakeTools
+3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli
+2024-01-31T13:09:47.849Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-01-31T13:09:47.849Z [debug] [kit] Found 0 kits in directory /usr/games
+2024-01-31T13:09:47.851Z [debug] [kit] Testing GCC binary: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc
+2024-01-31T13:09:47.851Z [info] [proc] Executing command: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc -v
+2024-01-31T13:09:47.868Z [debug] [kit] Testing GCC binary: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc-4.9.3
+2024-01-31T13:09:47.869Z [info] [proc] Executing command: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc-4.9.3 -v
+2024-01-31T13:09:47.879Z [debug] [kit] Found 0 kits in directory /usr/local/games
+2024-01-31T13:09:47.898Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-01-31T13:09:47.898Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-01-31T13:09:47.916Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-01-31T13:09:47.917Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-01-31T13:09:47.943Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-01-31T13:09:47.943Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-01-31T13:09:47.952Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-8
+2024-01-31T13:09:47.953Z [info] [proc] Executing command: /usr/bin/gcc-8 -v
+2024-01-31T13:09:48.017Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-01-31T13:09:48.018Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-01-31T13:09:48.031Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-8
+2024-01-31T13:09:48.032Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-8 -v
+2024-01-31T13:09:48.060Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2024-01-31T13:09:48.061Z [info] [proc] Executing command: /bin/c89-gcc -v
+2024-01-31T13:09:48.071Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2024-01-31T13:09:48.071Z [info] [proc] Executing command: /bin/c99-gcc -v
+2024-01-31T13:09:48.095Z [debug] [kit] Testing GCC binary: /bin/gcc
+2024-01-31T13:09:48.096Z [info] [proc] Executing command: /bin/gcc -v
+2024-01-31T13:09:48.105Z [debug] [kit] Testing GCC binary: /bin/gcc-8
+2024-01-31T13:09:48.106Z [info] [proc] Executing command: /bin/gcc-8 -v
+2024-01-31T13:09:48.165Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2024-01-31T13:09:48.166Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2024-01-31T13:09:48.179Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc-8
+2024-01-31T13:09:48.180Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc-8 -v
+2024-01-31T13:09:48.205Z [debug] [kit] Detected GCC compiler: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc-4.9.3
+2024-01-31T13:09:48.208Z [debug] [kit] Detected GCC compiler: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc
+2024-01-31T13:09:48.216Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc-8
+2024-01-31T13:09:48.217Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2024-01-31T13:09:48.219Z [debug] [kit] Detected GCC compiler: /bin/gcc-8
+2024-01-31T13:09:48.221Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2024-01-31T13:09:48.222Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2024-01-31T13:09:48.224Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2024-01-31T13:09:48.225Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-8
+2024-01-31T13:09:48.227Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-01-31T13:09:48.228Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-8
+2024-01-31T13:09:48.230Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-01-31T13:09:48.231Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-01-31T13:09:48.233Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-01-31T13:09:48.233Z [debug] [kit] Testing GCC binary: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc
+2024-01-31T13:09:48.234Z [info] [proc] Executing command: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc -v
+2024-01-31T13:09:48.251Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2024-01-31T13:09:48.251Z [info] [proc] Executing command: /bin/c99-gcc -v
+2024-01-31T13:09:48.263Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2024-01-31T13:09:48.264Z [info] [proc] Executing command: /bin/c89-gcc -v
+2024-01-31T13:09:48.272Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-01-31T13:09:48.273Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-01-31T13:09:48.285Z [debug] [kit] Detected GCC compiler: /opt/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gcc
+2024-01-31T13:09:48.286Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-01-31T13:09:48.286Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-01-31T13:09:48.295Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-01-31T13:09:48.297Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2024-01-31T13:09:48.298Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2024-01-31T13:09:48.299Z [debug] [kit] Found 2 kits in directory /opt/gcc-arm-none-eabi-4_9-2015q1/bin
+2024-01-31T13:09:48.299Z [debug] [kit] Found 6 kits in directory /bin
+2024-01-31T13:09:48.302Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-01-31T13:09:48.315Z [debug] [kit] Found 6 kits in directory /usr/bin
+2024-01-31T13:09:48.315Z [info] [kit] Found Kit (trusted): GCC 4.9.3 arm-none-eabi
+2024-01-31T13:09:48.315Z [info] [kit] Found Kit (trusted): GCC 4.9.3 arm-none-eabi
+2024-01-31T13:09:48.315Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.315Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.316Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.317Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.317Z [info] [kit] Found Kit (trusted): GCC 8.3.0 x86_64-linux-gnu
+2024-01-31T13:09:48.318Z [debug] [kitsController] Saving kits to /senslab/users/iot2023oulu33/.local/share/CMakeTools/cmake-tools-kits.json
+2024-01-31T13:09:48.318Z [debug] [kitsController] Saving new kits to /senslab/users/iot2023oulu33/.local/share/CMakeTools/cmake-tools-kits.json
+2024-01-31T13:10:21.135Z [debug] [extension] Deactivate CMakeTools
