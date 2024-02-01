@@ -1,5 +1,4 @@
 ls
-git clone https://github.com/username/repository.git
 exit
 cd sesnor
 ls
@@ -17,10 +16,6 @@ ls
 make
 source /opt/riot.source
 make
-iotlab-experiment submit -n "Tempsens" -d 120 -l 1,archi=m3:at86rf231+site=grenobletemp
-iotlab-experiment submit -n "Tempsens" -d 120 -l 1,archi=m3:at86rf231+site=grenoble
-iotlab-experiment submit -n "Tempsens" -d 120 -l 6,archi=m3:at86rf231+site=grenoble
-iotlab-experiment submit -n "Tempsens" -d 120 -l 1,archi=m3:at86rf231+site=grenoble
 iotlab-auth -u iot2023oulu33@iot-lab.info
 iotlab-experiment submit -n "Tempsens" -d 120 -l 6,archi=m3:at86rf231+site=grenoble
 cd TempratureSensor/ make IOTLAB_NODE=auto flash make IOTLAB_NODE=auto -C . term
@@ -43,7 +38,6 @@ make
 ls
 makefile
 make
-iotlab-experiment submit -n "Third" -d 120 -l 1,archi=m3:at86rf231+site=grenoble
 cd TemperatureSensor/ make IOTLAB_NODE=auto flash
 TemperatureSensor/ make IOTLAB_NODE=auto flash
 make IOTLAB_NODE=auto flash
