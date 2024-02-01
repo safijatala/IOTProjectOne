@@ -4,6 +4,7 @@ Initialize the SSH keys from PowerShell and implement them on our IoT testbed.
 Connect Visual Studio with grenoble.iot-lab.info.
 Resolve SSH permission errors by specifying the remote platform as "Linux" in the json settings.
 Connect with the given username, in this case, "iot2023oulu33".
+
 **This does not contain the folder vscode-server due to being too large for git. It can be downloaded from: https://unioulu-my.sharepoint.com/:u:/g/personal/msafi23_student_oulu_fi/EYyIXs4aCQNGrQvm7E2Ot84BUl3sa5Ac52VfdqX_tamELQ?e=T5HI0e . The file is compressed using 7z so you may need that.**
 
 Firstly, Clone the RIOT repository from the terminal using the command:
