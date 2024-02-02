@@ -51,7 +51,7 @@ lps temperature start
 
 # COAP Integration
 To add COAP protocol, you need to create a COAP folder and writing its main and make files, as well as gcoap_cli.c. These are included in the repository too. 
-Making the COAP similar to temperature sensor which done before and then send it to the server, using two COAP instances for the client and server.
+Then 'make' the COAP similar to temperature sensor as done before and then send it to the server, using two COAP instances for the client and server.
 
 ```
 iotlab-experiment submit -n COAP1 -d 60 -l grenoble,m3,3,./bin/iotlab-m3/COAP.elf
