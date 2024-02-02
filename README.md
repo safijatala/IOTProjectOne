@@ -9,7 +9,7 @@ Then Connect with the given username, in this case, "iot2023oulu33" but would be
 **This repository does NOT contain the folder vscode-server due to being too large for git. It can be downloaded from: https://unioulu-my.sharepoint.com/:u:/g/personal/msafi23_student_oulu_fi/EYyIXs4aCQNGrQvm7E2Ot84BUl3sa5Ac52VfdqX_tamELQ?e=T5HI0e . The file is compressed using 7z so you may need that. Once downloaded, add it to main folders and it should be good.**
 The cache folder is also missing but it is not necessary.
 
-Now, clone the RIOT repository from the terminal using the command:
+Now, clone the RIOT repository from the github using the terminal command:
 
 ```
 git clone https://github.com/RIOT-OS/RIOT.git
