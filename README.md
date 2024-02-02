@@ -15,8 +15,8 @@ Now, clone the RIOT repository from the github using the terminal command:
 git clone https://github.com/RIOT-OS/RIOT.git
 ```
 # Setting Up Temperature Sensor
-Creating a folder for the temperature sensor, named "TemperatureSensor".
-Creating the main.c and Makefile files in the temperature sensor folder to connect the sensors to the testbed. These are already included in the repository. If you're doing from scratch then you may need to make them yourself.
+As our purpose is to measure the temperature from the sensors in grenoble france and see their communication, firstly we need to make a folder for the temperature sensor, which i created and named it "TemperatureSensor".
+Then we need to creat the main.c and Makefile files in the temperature sensor folder to connect the sensors to the testbed and get the readings. These are all included in the repository. If you're doing from scratch then you may need to make them yourself.
 Save the files and compile them using the terminal with the following commands:
 
 ```
