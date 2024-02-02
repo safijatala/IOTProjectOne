@@ -25,7 +25,7 @@ source /opt/riot.source
 make
 ```
 
-# Running in Terminal and Uploading to Testbed
+# Uploading to Testbed and getting temperature readings
 Execute the following commands in the terminal to make the project and connect it to the testbed and run it for 120 mins or two hours:
 
 
