@@ -89,7 +89,7 @@ Syed Hasan
 # Misc and Discalimer
 You can resolve SSH permission error by specifying the remote platform as "Linux" in the json settings of SSH if it gives publickey permission error at the very start when trying to connect to grenoble.iot-lab.info in the visual studio code. 
 
-Almost all of the files are already there when you connect to your username so the only ones you need to create are riot, sensor one and COAP. The sensor can also measure pressure and i have included it in my main file but for the demonstration only temperature is used.
+Almost all of the files are already there when you connect to your username so the only ones you need to create are RIOT one, sensor one and COAP. The sensor can also measure pressure and i have included it in my main file but for the demonstration only temperature is used. 
 
 It may also ask for authentication in form of an error if your're not authenticated, which can be done by entering your username and password by this:
 ```
