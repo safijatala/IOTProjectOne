@@ -42,7 +42,7 @@ iotlab-experiment submit -n 2nd -d 120 -l grenoble,m3,2,./bin/iotlab-m3/tempsen.
 Dont foget to enter temperaturesensor sub folder using cd TemperatureSensor in the new terminal too.
 These commands sends the sensors to run on testbed node 1st and 2nd with the same names.
 
-Temperature readings could be found using on the first sensor: 
+Temperature readings could be found using these commands on the first sensor: 
 
 ```
 lps
