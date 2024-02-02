@@ -1,6 +1,6 @@
 # IoT Project One
 
-<em>This project is a part of Oulu University course requirement for IoT course<em>.
+<em>This project is a part of Oulu University course requirement for IoT course.</em>
 
 To use this project, firstly initialize the SSH keys from PowerShell and implement them on our IoT testbed.
 Connect Visual Studio with grenoble.iot-lab.info.
