@@ -1,4 +1,6 @@
-# IOTProjectOne
+# IoT Project One
+
+<em>This project is a part of Oulu University course requirement for IoT course<em>.
 
 To use this project, firstly initialize the SSH keys from PowerShell and implement them on our IoT testbed.
 Connect Visual Studio with grenoble.iot-lab.info.
@@ -91,5 +93,6 @@ It may also ask for authentication in form of an error if your're not authentica
 ```
 iotlab-auth -u iot2023oulu33@iot-lab.info
 ```
-This repository is created by firstly storing the files locally and then pushed to git hub using powershell. Large missing files are included on drive with public sharing. In case of any error, feel free to ask me.
+This repository is created by firstly storing the files locally and then pushed to git hub using powershell. Large missing files are included on drive with public sharing. Some files may be hidden by gitguardian. In case of any error, feel free to ask me.
+
 
