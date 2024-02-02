@@ -87,7 +87,7 @@ Partners: Haris Naveed
 Syed Hasan
 
 # Misc and Discalimer
-You can resolve SSH permission errors by specifying the remote platform as "Linux" in the json settings if it gives publickey error at the very start when trying to connect to grenoble.iot-lab.info.
+You can resolve SSH permission error by specifying the remote platform as "Linux" in the json settings if it gives publickey error at the very start when trying to connect to grenoble.iot-lab.info in the visual studio code.
 
 It may also ask for authentication in form of an error if your're not authenticated, which can be done by entering your username and password by this:
 ```
