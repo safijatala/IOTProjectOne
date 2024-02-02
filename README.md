@@ -3,7 +3,7 @@
 <em>This project is a part of Oulu University course requirement for IoT course.</em>
 
 To use this project, firstly initialize the SSH keys from PowerShell and implement them on our IoT testbed.
-Connect Visual Studio with grenoble.iot-lab.info.
+Connect Visual Studio code with grenoble.iot-lab.info.
 Then Connect with the given username, in this case, "iot2023oulu33" but would be different for you.
 
 **This repository does NOT contain the folder vscode-server due to being too large for git. It can be downloaded from: https://unioulu-my.sharepoint.com/:u:/g/personal/msafi23_student_oulu_fi/EYyIXs4aCQNGrQvm7E2Ot84BUl3sa5Ac52VfdqX_tamELQ?e=T5HI0e . The file is compressed using 7z so you may need that. Once downloaded, add it to main folders and it should be good.**
@@ -15,7 +15,7 @@ Now, clone the RIOT repository from the github using the terminal command:
 git clone https://github.com/RIOT-OS/RIOT.git
 ```
 # Setting Up Temperature Sensor
-As our purpose is to measure the temperature from the sensors in grenoble france and check their communication status, firstly we need to make a folder for the temperature sensor, which i created and named it "TemperatureSensor".
+As our purpose is to measure the temperature from the sensors in grenoble france using IoT protocols and check their communication status, firstly we need to make a folder for the temperature sensor, which i created and named it "TemperatureSensor".
 Then we need to creat the main.c and Makefile files in the temperature sensor folder to connect the sensors to the testbed and get the readings. These are all included in the repository. If you're doing from scratch then you may need to make them yourself.
 Save the files and compile them using the terminal with the following commands:
 
@@ -50,7 +50,7 @@ lps temperature start
 ```
 
 # COAP Integration
-To add COAP, you need to create a COAP folder and writing its main and make files, as well as gcoap_cli.c. 
+To add COAP protocol, you need to create a COAP folder and writing its main and make files, as well as gcoap_cli.c. These are included in the repository too. 
 Making the COAP similar to temperature sensor which done before and then send it to the server, using two COAP instances for the client and server.
 
 ```
