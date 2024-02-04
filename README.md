@@ -39,7 +39,7 @@ Send another sensor to the testbed in a separate terminal using:
 ```
 iotlab-experiment submit -n 2nd -d 120 -l grenoble,m3,2,./bin/iotlab-m3/tempsen.elf
 ```
-Dont foget to enter temperaturesensor sub folder using cd TemperatureSensor in the new terminal too.
+Dont forget to enter temperaturesensor sub folder using cd TemperatureSensor in the new terminal too.
 These commands sends the sensors to run on testbed node 1st and 2nd with the same names.
 
 Temperature readings could be found using these commands on the first sensor: 
@@ -93,7 +93,7 @@ Almost all of the files are already there when you connect to your username so t
 
 It may also ask for authentication in form of an error if your're not authenticated, which can be done by entering your username and password by this:
 ```
-iotlab-auth -u iot2023oulu33@iot-lab.info
+iotlab-auth -u (your full username)
 ```
 This repository is created by firstly storing the files locally and then pushed to git hub using powershell. Large missing files are included on drive with public sharing. Some files may be hidden by gitguardian. In case of any error, feel free to ask me.
 
